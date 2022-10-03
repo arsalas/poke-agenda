@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="https://freepngimg.com/download/pokemon/37693-6-pokeball-photos.png"
+        type="image/x-icon">
+    <title>PokeAgenda</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="stylesheet" href="styles/index.css">
+</head>
+
+<body>
+
+    <main>
+
+
+        <article class="panel is-danger agenda animate__animated animate__fadeIn">
+            <p class="panel-heading agenda-header">
+                PokeAgenda
+            </p>
+            <div class="panel-block">
+                <p class="control has-icons-left">
+                    <input id="search" class="input is-rounded" type="text" placeholder="Nombre del pokemon"
+                        autocomplete="off">
+                    <span class="icon is-left">
+                        <i class="fas fa-search" aria-hidden="true"></i>
+                    </span>
+                </p>
+            </div>
+            <div id="list">
+                <div class="empty">
+                    <button class="button is-ghost is-loading is-large">Ghost</button>
+                </div>
+
+
+            </div>
+        </article>
+    </main>
+
+
+    <script src="index.js"></script>
+</body>
+
+</html>
